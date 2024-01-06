@@ -1,0 +1,717 @@
+{
+  "menu": {
+    "administrators": "Users management",
+    "roles": "Roles"
+  },
+  "ruta-translation": {
+    "saludo": "Hello",
+    "otro-saludo": "Whats up"
+  },
+  "respuestasComunes": {
+    "datosCargados": "Records retrieved succesfully.",
+    "modificadoHabilitado": "Record enabled/disabled succesfully.",
+    "datosCreados": "Record created succesfully.",
+    "datosEditados": "Record updated succesfully.",
+    "subirArchivoOImagen": "File uploaded succesfully."
+  },
+  "errores": {
+    "formularios": {
+      "required": "is required",
+      "max": "It should be more than",
+      "min": "It should be less than",
+      "pattern": "Incorrect string pattern",
+      "minlength": "must have less than",
+      "maxlength": "must have more than",
+      "email": "must be a valid email",
+      "file": "is not valid. The file should not have more than",
+      "caracteres": "characters",
+      "megabytes": "MB"
+    },
+    "http": {
+      "buscar": "Error searching records.",
+      "modificarHabilitado": "Error enabling/disabling record.",
+      "crear": "Error creating record.",
+      "editar": "Error updating record."
+    },
+    "servidor": "Server error.",
+    "desconocido": "Unknown error."
+  },
+  "comunes": {
+    "tituloAutocomplete": "Please choose one",
+    "archivoLabel": "File",
+    "archivoPlaceholder": "Ex: File",
+    "archivoDescripcion": "Upload a file",
+    "imagenLabel": "Image",
+    "imagenPlaceholder": "Ex: Image",
+    "imagenDescripcion": "Upload an image",
+    "descargar": "Download",
+    "cargar": "Upload",
+    "gestionarArchivos": "Manage files",
+    "seleccionarArchivo": "Pick a file",
+    "tipoArchivo": "File type",
+    "sisHabilitado": "Enabled/Disabled",
+    "sisHabilitadoPlaceholer": "Ex: Enabled/disabled",
+    "sisHabilitadoDescription": "Select enabled or disabled",
+    "sisCreado": "Created at",
+    "placeholderFecha": "Ex: 22/07/2222",
+    "ayudaFecha": "Select a date",
+    "sisModificado": "Updated at",
+    "id": "Identifier",
+    "sortBy": "Sort by",
+    "buscar": "Search",
+    "reset": "Reset",
+    "crear": "Create",
+    "editar": "Update",
+    "eliminar": "Delete",
+    "visualizar": "Review",
+    "asc": "Ascending",
+    "desc": "Descending",
+    "numeroRegistros": "# Records:",
+    "opcionesComunes": "Common",
+    "fecha": "Date",
+    "opcionesComunesDescripcion": "Update, delete",
+    "habilitado": "Enabled",
+    "deshabilitado": "Disabled",
+    "acciones": "Actions",
+    "aceptar": "Ok",
+    "cancelar": "Cancel",
+    "confirmacion": "Confirm",
+    "confirmacionTexto": "Are you sure to perform this action?",
+    "noHayRegistros": "There are no records"
+  },
+  "modulo-nest": {
+    "migaPan": "Module nest",
+    "descripcionRuta": "Welcome to the Library Book Route",
+    "libroBiblioteca": {
+      "migaPan": "Library book",
+      "nombreRuta": "Library book.",
+      "descripcion": "Manage your library books.",
+      "descripcionRuta": "Create, update, delete and find your library books",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Name",
+          "ayuda": "Name of the book",
+          "placeholder": "Ex: Harry Potter"
+        },
+        "isbn": {
+          "nombre": "ISBN",
+          "ayuda": "ISBN of the book",
+          "placeholder": "Ex: ISBN1234"
+        },
+        "generoLibro": {
+          "nombre": "Book genre",
+          "ayuda": "Genre of the book",
+          "placeholder": "Ex: Drama/Action"
+        },
+        "descripcion": {
+          "nombre": "Description",
+          "ayuda": "Description of the book",
+          "placeholder": "Ex: The book is..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Search by name or ISBN",
+          "placeholder": "Ex: Book or ISBN1234"
+        }
+      }
+    },
+
+    "listaValoresTipo": {
+      "migaPan": "Value list type",
+      "nombreRuta": "Value list type.",
+      "descripcion": "Manage your Value list type.",
+      "descripcionRuta": "Create, update, delete and find Value list type",
+      "camposFormulario": {
+        "codigoPrimario": {
+          "nombre": "Primary code",
+          "ayuda": "Fill the Primary code",
+          "placeholder": "Ex: GL1"
+        },
+        "codigoSecundario": {
+          "nombre": "Secondary code",
+          "ayuda": "Fill the Secondary code",
+          "placeholder": "Ex: GEN-LIBRO-1"
+        },
+        "nombre": {
+          "nombre": "Name",
+          "ayuda": "Name of Value list type",
+          "placeholder": "Ex: Book Genre"
+        },
+        "descripcion": {
+          "nombre": "Description",
+          "ayuda": "Description of Value list type",
+          "placeholder": "Ex: Book Genre's like Action or Drama"
+        },
+        "pathTraduccion": {
+          "nombre": "Translate path",
+          "ayuda": "Description of Translate path",
+          "placeholder": "Ex: modulo-nest.listaValoresTipo.camposFormulario.pathTraduccion.nombre"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Search by primary code, secondary code or name",
+          "placeholder": "Ex: GL1 / Book Genre / GEN-LIBRO-1"
+        }
+      }
+    },
+    "listaValoresDetalle": {
+      "migaPan": "Lista Valores Detalle",
+      "nombreRuta": "Lista Valores Detalle type.",
+      "descripcion": "Manage your Lista Valores Detalle.",
+      "descripcionRuta": "Create, update, delete and find Lista Valores Detalle",
+      "camposFormulario": {
+        "codigoPrimario": {
+          "nombre": "Primary code",
+          "ayuda": "Fill the Primary code",
+          "placeholder": "Ex: GL1"
+        },
+        "codigoSecundario": {
+          "nombre": "Secondary code",
+          "ayuda": "Fill the Secondary code",
+          "placeholder": "Ex: GEN-LIBRO-1"
+        },
+        "nombre": {
+          "nombre": "Name",
+          "ayuda": "Name of Value list type",
+          "placeholder": "Ex: Book Genre"
+        },
+        "descripcion": {
+          "nombre": "Description",
+          "ayuda": "Description of Value list type",
+          "placeholder": "Ex: Book Genre's like Action or Drama"
+        },
+        "pathTraduccion": {
+          "nombre": "Translate path",
+          "ayuda": "Description of Translate path",
+          "placeholder": "Ex: modulo-nest.listaValoresTipo.camposFormulario.pathTraduccion.nombre"
+        },
+        "listaValoresTipo": {
+          "nombre": "Value list typeValue list typev",
+          "ayuda": "Select a Value list type",
+          "placeholder": "Ex: GL1"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Search by primary code, secondary code or name",
+          "placeholder": "Ex: GL1-1 / Action / GEN-LIBRO-1-1"
+        },
+        "listaValoresTipo": {
+          "nombre": "List value type",
+          "ayuda": "Search by primary code, secondary code or name",
+          "placeholder": "Ex: GL1 / Book Genre / GEN-LIBRO-1"
+        }
+      }
+    },
+    "findDto": {
+      "busqueda": {
+        "ayuda": "Search by name or ISBN",
+        "placeholder": "Ex: Book or ISBN1234"
+      }
+    },
+    "camposFormulario": {
+      "nombre": {
+        "nombre": "Name",
+        "ayuda": "Name of the book",
+        "placeholder": "Ex: Harry Potter"
+      },
+      "isbn": {
+        "nombre": "ISBN",
+        "ayuda": "ISBN of the book",
+        "placeholder": "Ex: ISBN1234"
+      },
+      "generoLibro": {
+        "nombre": "Book genre",
+        "ayuda": "Genre of the book",
+        "placeholder": "Ex: Drama/Action"
+      },
+      "descripcion": {
+        "nombre": "Description",
+        "ayuda": "Description of the book",
+        "placeholder": "Ex: The book is..."
+      }
+    },
+    "generos": {
+      "accion": "Action",
+      "drama": "Drama"
+    }
+  },
+  "lista-valores": {
+    "generoLibro": {
+      "tipo": "Book Genre",
+      "detalle": {
+        "GL1-1": "Action",
+        "GL1-2": "Drama"
+      }
+    }
+  },
+  "modulo-facturacion-electronica": {
+    "migaPan": "Module Invoice",
+    "descripcionRuta": "Welcome to the Invoice Route",
+    "documentoElectronico": {
+      "migaPan": "Electronic Document",
+      "nombreRuta": "Electronic Document",
+      "descripcion": "Manage your Electronic Documents",
+      "descripcionRuta": " ",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Name",
+          "ayuda": "Name of ...",
+          "placeholder": "Ex: ..."
+        },
+        "tipoAmbiente": {
+          "nombre": "Environment type"
+        },
+        "tipoDocumento": {
+          "nombre": "Document type"
+        },
+        "identificadorEmisor": {
+          "nombre": "Identificador emisor"
+        },
+        "tipoIdentificacionRecibe": {
+          "nombre": "Tipo identificación recibe"
+        },
+        "identificadorRecibe": {
+          "nombre": "Identificador recibe"
+        },
+        "estadoComprobante": {
+          "nombre": "Estado comprobante"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por identificador recibe",
+          "placeholder": "Ej: 1717171717"
+        },
+        "tipoAmbiente": {
+          "label": "Tipo ambiente",
+          "placeholder": "Seleccione el ambiente",
+          "description": "Tipo de ambiente",
+          "options": {
+            "produccion": {
+              "label": "Producción"
+            },
+            "pruebas": {
+              "label": "Pruebas"
+            }
+          }
+        },
+        "estadoComprobante": {
+          "label": "Estado comprobante",
+          "placeholder": "Seleccione el estado",
+          "description": "Estado",
+          "options": {
+            "enProcesamiento": {
+              "label": "En procesamiento"
+            },
+            "autorizado": {
+              "label": "Autorizado"
+            },
+            "noAutorizado": {
+              "label": "No autorizado"
+            }
+          }
+        },
+        "tipoDocumento": {
+          "label": "Tipo documento",
+          "placeholder": "Seleccione el tipo de documento",
+          "description": "Tipo de documento",
+          "options": {
+            "factura": {
+              "label": "Factura"
+            },
+            "liquidacion": {
+              "label": "Liquidación"
+            },
+            "notaCredito": {
+              "label": "Nota de crédito"
+            },
+            "guiaRemision": {
+              "label": "Guía de remisión"
+            },
+            "retencion": {
+              "label": "Comprobante retención"
+            }
+          }
+        },
+        "tipoIdentificacionRecibe": {
+          "label": "Tipo identificación",
+          "placeholder": "Seleccione el tipo",
+          "description": "Tipo identificación",
+          "options": {
+            "ruc": {
+              "label": "RUC"
+            },
+            "cedula": {
+              "label": "Cédula"
+            },
+            "pasaporte": {
+              "label": "Pasaporte"
+            },
+            "consumidorFinal": {
+              "label": "Consumidor final"
+            },
+            "exterior": {
+              "label": "Identificación del exterior"
+            }
+          }
+        },
+        "identificadorEmisor": {
+          "label": "Identificador emisor",
+          "placeholder": "Ej: 1717171717",
+          "description": "Filtre por identificador emisor"
+        }
+      }
+    }
+  },
+  "modulo-valor-tipo-detalle": {
+    "migaPan": "Module value type detail",
+    "descripcionRuta": "Welcome to value type detail"
+  },
+  "modulo-contabilidad": {
+    "migaPan": "Modulo Contabilidad",
+    "descripcionRuta": "Bienvenido a ruta de Contabilidad",
+    "banco": {
+      "tabla": {
+        "headers": {}
+      },
+      "migaPan": "Banco",
+      "nombreRuta": "Banco",
+      "descripcion": "Gestione sus Bancos.",
+      "descripcionRuta": " ",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de ...",
+          "placeholder": "Eje: ..."
+        }
+      }
+    },
+    "periodoContable": {
+      "migaPan": "Periodo Contable",
+      "nombreRuta": "Periodo Contable type.",
+      "descripcion": "Manage your Periodo Contable.",
+      "descripcionRuta": "Create, update, delete and find Periodo Contable",
+      "columnas": {
+        "esPeriodoActual": "Periodo actual"
+      },
+      "camposFormulario": {
+        "fechaInicio": {
+          "nombre": "Fecha inicio",
+          "ayuda": "Seleccione la fecha de inicio del periodo",
+          "placeholder": "Ej: 01/01/2023"
+        },
+        "fechaFin": {
+          "nombre": "Fecha fin",
+          "ayuda": "Seleccione la fecha de fin del periodo",
+          "placeholder": "Ej: 31/12/2023"
+        },
+        "anio": {
+          "nombre": "Año",
+          "ayuda": "Ingrese el año del periodo",
+          "placeholder": "Ej: 2023"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Search by ....",
+          "placeholder": "Ex: ..."
+        }
+      }
+    },
+    "asientoContableCabecera": {
+      "migaPan": "Asiento Contable Cabecera",
+      "nombreRuta": "Asiento Contable Cabecera type.",
+      "descripcion": "Manage your Asiento Contable Cabecera.",
+      "descripcionRuta": "Create, update, delete and find Asiento Contable Cabecera",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Name",
+          "ayuda": "Name of ...",
+          "placeholder": "Ex: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Search by ....",
+          "placeholder": "Ex: ..."
+        }
+      }
+    },
+    "asientoContableCabecera": {
+      "migaPan": "Asiento Contable Cabecera",
+      "nombreRuta": "Asiento Contable Cabecera.",
+      "descripcion": "Gestiona tu Asiento Contable Cabecera.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Asiento Contable Cabecera",
+      "meses": {
+        "enero": "Enero",
+        "febrero": "Febrero",
+        "marzo": "Marzo",
+        "abril": "Abril",
+        "mayo": "Mayo",
+        "junio": "Junio",
+        "julio": "Julio",
+        "agosto": "Agosto",
+        "septiembre": "Septiembre",
+        "octubre": "Octubre",
+        "noviembre": "Noviembre",
+        "diciembre": "Diciembre"
+      },
+      "tipoTransaccion": {
+        "ingreso": "Ingreso",
+        "egreso": "Egreso",
+        "diario": "Diario",
+        "transferencia": "Transferencia"
+      },
+      "tipoAsientoContable": {
+        "efectivo": "Efectivo",
+        "cheque": "Cheque",
+        "medioDigital": "Medio digital",
+        "banco": "Banco",
+        "inicial": "Inicial"
+      },
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Asiento Contable Cabecera",
+          "placeholder": "Ej: ..."
+        },
+        "fecha": {
+          "nombre": "Fecha",
+          "ayuda": "Seleccione la fecha del asiento",
+          "placeholder": "Ej: 2023/02/01"
+        },
+        "anio": {
+          "nombre": "Año",
+          "ayuda": "Ingrese el año del asiento",
+          "placeholder": "Ej: 2023"
+        },
+        "mesPeriodo": {
+          "nombre": "Mes",
+          "ayuda": "Seleccione el mes del periodo",
+          "placeholder": "Ej: Enero"
+        },
+        "tipoTransaccion": {
+          "nombre": "Tipo transacción",
+          "ayuda": "Seleccione el tipo de transacción",
+          "placeholder": "Ej: Ingreso"
+        },
+        "tipoAsientoContable": {
+          "nombre": "Tipo asiento contable",
+          "ayuda": "Seleccione el tipo de asiento contable",
+          "placeholder": "Ej: Efectivo"
+        },
+        "codigoReferencialAsientoContable": {
+          "nombre": "Código referencial",
+          "ayuda": "Ingrese el código referencial",
+          "placeholder": "Ej: 001001000001"
+        },
+        "beneficiario": {
+          "nombre": "Beneficiario",
+          "ayuda": "Ingrese el beneficiario",
+          "placeholder": "Ej: Cristian Lara"
+        },
+        "totalCredito": {
+          "nombre": "Total crédito",
+          "ayuda": "Ingrese el total crédito",
+          "placeholder": "Ej: 100.00"
+        },
+        "totalDebito": {
+          "nombre": "Total débito",
+          "ayuda": "Ingrese el total débito",
+          "placeholder": "Ej: 100.00"
+        },
+        "asientoCerrado": {
+          "nombre": "Asiento cerrrado",
+          "ayuda": "Seleccione si el asiento está cerrado",
+          "placeholder": "Ej: Si"
+        },
+        "serie": {
+          "nombre": "Serie",
+          "ayuda": "Ingrese la serie",
+          "placeholder": "Ej: 021598"
+        },
+        "diferencia": {
+          "nombre": "Diferencia",
+          "ayuda": "Ingrese la diferencia",
+          "placeholder": "Ej: 0"
+        },
+        "descripcion": {
+          "nombre": "Descripción",
+          "ayuda": "Ingrese una descripción",
+          "placeholder": "Ej: Pago de mercadería"
+        },
+        "numero": {
+          "nombre": "Número",
+          "ayuda": "Ingrese el número",
+          "placeholder": "Ej: 1"
+        },
+        "numeroRegistros": {
+          "nombre": "Número registros",
+          "ayuda": "Ingrese el número de registros",
+          "placeholder": "Ej: 1"
+        },
+        "observaciones": {
+          "nombre": "Observaciones",
+          "ayuda": "Ingrese Observaciones",
+          "placeholder": "Ej: La mercadería ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    }
+  },
+  "modulo-herramienta-inyeccion": {
+    "migaPan": "Modulo Herramienta Inyección",
+    "descripcionRuta": "Bienvenido a ruta de herramienta de inyección",
+    "material": {
+      "migaPan": "Material",
+      "nombreRuta": "Material.",
+      "descripcion": "Gestiona tu Material.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Material",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Material",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "parametrosGenerales": {
+      "migaPan": "Parámetros Generales",
+      "nombreRuta": "Pintado",
+      "nombreRuta2": "Tiempos Considerados en los Paros Programados",
+      "descripcion": "Gestiona tus parámetros de Pintado.",
+      "descripcion2": "Gestiona tus parámetros de tiempo considerados en los paros programados.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Parámetros Generales",
+      "camposFormulario": {
+        "modelo": {
+          "nombre": "Modelo",
+          "ayuda": "Modelo del Pintado",
+          "placeholder": "Ej: APL"
+        },
+        "grupoArticulo": {
+          "nombre": "Grupo Artículo",
+          "ayuda": "Grupo artículo del Pintado",
+          "placeholder": "Ej: APL-AZ"
+        },
+        "necesidad": {
+          "nombre": "Capacidad",
+          "ayuda": "Capacidad del Pintado",
+          "placeholder": "Ej: 0.063"
+        },
+        "maquina": {
+          "nombre": "Máquina",
+          "ayuda": "Máquina del Parámetro General",
+          "placeholder": "Ej: PILODE14"
+        },
+        "mttoPreventivo": {
+          "nombre": "MTTO/Preventivo",
+          "ayuda": "MTTO/Preventivo del Parámetro General",
+          "placeholder": "Ej: 1000"
+        },
+        "arranqueDeMaquina": {
+          "nombre": "Arranque de máquina",
+          "ayuda": "Arranque de máquina del Parámetro General",
+          "placeholder": "Ej: 0,125"
+        },
+        "paroMaquinaria": {
+          "nombre": "Paro maquinaria",
+          "ayuda": "Paro de maquinaria del Parámetro General",
+          "placeholder": "Ej: 0,325"
+        },
+        "mttoAutonomo": {
+          "nombre": "MTTO/Autónomo",
+          "ayuda": "MTTO/Autónomo del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "cambioDeMolde": {
+          "nombre": "Cambio de molde",
+          "ayuda": "Cambio de molde del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "cambioDeColor": {
+          "nombre": "Cambio de color",
+          "ayuda": "Cambio de color del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "parosPlanificados": {
+          "nombre": "Paros planificados",
+          "ayuda": "Paros planificados del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "cambioDeMaterial": {
+          "nombre": "Cambio de Material",
+          "ayuda": "Cambio de material del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "planDePrueba": {
+          "nombre": "Plan de prueba",
+          "ayuda": "Plan de prueba del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por modelo",
+          "placeholder": "Ej: APL"
+        }
+      }
+    },
+    "preProgramacion": {
+      "migaPan": "Preprogramación",
+      "nombreRuta": "Preprogramación.",
+      "descripcion": "Gestiona tu Preprogramación.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Preprogramación",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Ingrese el nombre",
+          "placeholder": "Ej: Planificación"
+        },
+        "archivo": {
+          "nombre": "archivo",
+          "ayuda": "Seleccione el archivo",
+          "placeholder": " "
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "necesidadPlanificacion": {
+      "migaPan": "Necesidad Planificación",
+      "nombreRuta": "Necesidad Planificación.",
+      "descripcion": "Gestiona tu Necesidad Planificación.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Necesidad Planificación",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Necesidad Planificación",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    }
+  }
+}

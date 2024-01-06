@@ -1,0 +1,1591 @@
+{
+  "menu": {
+    "administrators": "Gestion de usuarios",
+    "roles": "Roles"
+  },
+  "ruta-translation": {
+    "saludo": "Hola",
+    "otro-saludo": "Que tal"
+  },
+  "respuestasComunes": {
+    "datosCargados": "Datos cargados correctamente.",
+    "modificadoHabilitado": "Registro habilitado/deshabilitado satisfactoriamente.",
+    "datosCreados": "Datos creados satisfactoriamente.",
+    "datosEditados": "Datos actualizados satisfactoriamente.",
+    "subirArchivoOImagen": "Archivo subido exitosamente."
+  },
+  "errores": {
+    "formularios": {
+      "required": "Es requerido",
+      "max": "Debe ser mayor a",
+      "min": "Debe ser menor a",
+      "pattern": "Existen caracteres incorrectos",
+      "minlength": "debe tener menos de",
+      "maxlength": "debe tener mas de",
+      "file": "no es valido. El archivo debe tener no mas de",
+      "caracteres": "caracteres",
+      "megabytes": "MB"
+    },
+    "http": {
+      "buscar": "Error buscando registros.",
+      "modificarHabilitado": "Error habilitando/deshabilitando registro.",
+      "crear": "Error creando registro.",
+      "editar": "Error actualizando registro."
+    },
+    "servidor": "Error del servidor.",
+    "desconocido": "Error desconocido."
+  },
+  "comunes": {
+    "tituloAutocomplete": "Por favor selecciona uno",
+    "archivoLabel": "Archivo",
+    "archivoPlaceholder": "Ej: Archivo",
+    "archivoDescripcion": "Suba un archivo",
+    "imagenLabel": "Imagen",
+    "imagenPlaceholder": "Ej: Imagen",
+    "imagenDescripcion": "Suba una imagen",
+    "descargar": "Descargar",
+    "cargar": "Cargar",
+    "gestionarArchivos": "Gestionar archivos",
+    "seleccionarArchivo": "Seleccionar Archivo",
+    "tipoArchivo": "Tipo archivo",
+    "sisHabilitado": "Habilitado/Deshabilitado",
+    "sisHabilitadoPlaceholer": "Ej: Habilitado/Deshabilitado",
+    "sisHabilitadoDescription": "Seleccionar habilitado o deshabilitado",
+    "sisCreado": "Fec. Creado",
+    "placeholderFecha": "Ej: 22/07/2222",
+    "ayudaFecha": "Seleccionar una fecha",
+    "sisModificado": "Fec. Actualizado",
+    "id": "Identificador",
+    "sortBy": "Ordenar",
+    "buscar": "Buscar",
+    "reset": "Resetear",
+    "crear": "Crear",
+    "editar": "Editar",
+    "eliminar": "Eliminar",
+    "visualizar": "Visualizar",
+    "asc": "Ascendentemente",
+    "desc": "Descendentemente",
+    "numeroRegistros": "# Registros:",
+    "opcionesComunes": "Comunes",
+    "fecha": "Fecha",
+    "opcionesComunesDescripcion": "Editar, eliminar",
+    "habilitado": "Habilitado",
+    "deshabilitado": "Deshabilitado",
+    "acciones": "Acciones",
+    "aceptar": "Aceptar",
+    "cancelar": "Cancelar",
+    "confirmacion": "Confirmar",
+    "confirmacionTexto": "¿Esta seguro de realizar esta accion?",
+    "noHayRegistros": "No existen registros",
+    "findDto": {
+      "busqueda": {
+        "ayuda": "Search by name or ISBN",
+        "placeholder": "Ex: Book or ISBN1234"
+      }
+    }
+  },
+  "modulo-nest": {
+    "migaPan": "Modulo nest",
+    "descripcionRuta": "Bienvenido a ruta Libro Biblioteca",
+    "libroBiblioteca": {
+      "migaPan": "Libro biblioteca",
+      "nombreRuta": "Libro biblioteca.",
+      "descripcion": "Gestiona tus libros bibliotecas.",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre del libro",
+          "placeholder": "Ej: Harry Potter"
+        },
+        "isbn": {
+          "nombre": "ISBN",
+          "ayuda": "ISBN del libro",
+          "placeholder": "Ej: ISBN1234"
+        },
+        "generoLibro": {
+          "nombre": "Genero libro",
+          "ayuda": "Genero del libro",
+          "placeholder": "Ej: Drama/Accion"
+        },
+        "descripcion": {
+          "nombre": "Descripcion",
+          "ayuda": "Descripcion del libro",
+          "placeholder": "Ej: El libro es muy..."
+        }
+      }
+    },
+    "listaValoresTipo": {
+      "migaPan": "Lista valores tipo",
+      "nombreRuta": "Lista valores tipo.",
+      "descripcion": "Gestiona tu Lista valores tipo.",
+      "descripcionRuta": "Crear, actualizar, buscar y eliminar Lista valores tipo",
+      "camposFormulario": {
+        "codigoPrimario": {
+          "nombre": "Codigo primario",
+          "ayuda": "Llenar el Codigo primario",
+          "placeholder": "Ej: GL1"
+        },
+        "codigoSecundario": {
+          "nombre": "Codigo secundario",
+          "ayuda": "Llenar el Codigo secundario",
+          "placeholder": "Ex: GEN-LIBRO-1"
+        },
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Lista valores tipo",
+          "placeholder": "Ej: Genero libro"
+        },
+        "descripcion": {
+          "nombre": "Descripcion",
+          "ayuda": "Descripcion de Lista valores tipo",
+          "placeholder": "Ej: Genero libro como Drama o Accion"
+        },
+        "pathTraduccion": {
+          "nombre": "Path traduccion",
+          "ayuda": "Llenar path traduccion",
+          "placeholder": "Ej: modulo-nest.listaValoresTipo.camposFormulario.pathTraduccion.nombre"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por codigo primario, secundario o nombre",
+          "placeholder": "Ex: GL1 / Genero Libro / GEN-LIBRO-1"
+        }
+      }
+    },
+    "listaValoresDetalle": {
+      "migaPan": "Lista Valores Detalle",
+      "nombreRuta": "Lista Valores Detalle.",
+      "descripcion": "Gestiona tu Lista Valores Detalle.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Lista Valores Detalle",
+      "camposFormulario": {
+        "codigoPrimario": {
+          "nombre": "Codigo primario",
+          "ayuda": "Llenar el Codigo primario",
+          "placeholder": "Ej: GL1"
+        },
+        "codigoSecundario": {
+          "nombre": "Codigo secundario",
+          "ayuda": "Llenar el Codigo secundario",
+          "placeholder": "Ex: GEN-LIBRO-1"
+        },
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Lista valores tipo",
+          "placeholder": "Ej: Genero libro"
+        },
+        "descripcion": {
+          "nombre": "Descripcion",
+          "ayuda": "Descripcion de Lista valores tipo",
+          "placeholder": "Ej: Genero libro como Drama o Accion"
+        },
+        "pathTraduccion": {
+          "nombre": "Path traduccion",
+          "ayuda": "Llenar path traduccion",
+          "placeholder": "Ej: modulo-nest.listaValoresTipo.camposFormulario.pathTraduccion.nombre"
+        },
+        "listaValoresTipo": {
+          "nombre": "Lista Valores Tipo",
+          "ayuda": "Selecciona un Lista Valores Tipo",
+          "placeholder": "Ej: GL1"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por codigo primario, secundario o nombre",
+          "placeholder": "Ex: GL1-1 / Drama / GEN-LIBRO-1-1"
+        }
+      },
+      "listaValoresTipo": {
+        "nombre": "Lista valores tipo",
+        "ayuda": "Search by primary code, secondary code or name",
+        "placeholder": "Ex: GL1 / Book Genre / GEN-LIBRO-1"
+      }
+    },
+    "findDto": {
+      "busqueda": {
+        "ayuda": "Busque por nombre o ISBN",
+        "placeholder": "Ej: Libro o ISBN1234"
+      }
+    },
+    "camposFormulario": {
+      "nombre": {
+        "nombre": "Nombre",
+        "ayuda": "Nombre del libro",
+        "placeholder": "Ej: Harry Potter"
+      },
+      "isbn": {
+        "nombre": "ISBN",
+        "ayuda": "ISBN del libro",
+        "placeholder": "Ej: ISBN1234"
+      },
+      "generoLibro": {
+        "nombre": "Genero libro",
+        "ayuda": "Genero del libro",
+        "placeholder": "Ej: Drama/Accion"
+      },
+      "descripcion": {
+        "nombre": "Descripcion",
+        "ayuda": "Descripcion del libro",
+        "placeholder": "Ej: El libro es muy..."
+      }
+    },
+    "generos": {
+      "accion": "Accion",
+      "drama": "Drama"
+    }
+  },
+  "modulo-facturacion-electronica": {
+    "migaPan": "Modulo facturación",
+    "descripcionRuta": "Bienvenido a ruta Facturación",
+    "documentoElectronico": {
+      "tabla": {
+        "headers": {
+          "informacion": "Información",
+          "estadoComprobante": "Estado comprobante"
+        }
+      },
+      "migaPan": "Documento Electronico",
+      "nombreRuta": "Documento Electronico",
+      "descripcion": "Gestione sus Documentos Electrónicos.",
+      "descripcionRuta": " ",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Name",
+          "ayuda": "Name of ...",
+          "placeholder": "Ex: ..."
+        },
+        "tipoAmbiente": {
+          "nombre": "Tipo ambiente"
+        },
+        "tipoDocumento": {
+          "nombre": "Tipo documento"
+        },
+        "identificadorEmisor": {
+          "nombre": "Identificador emisor"
+        },
+        "tipoIdentificacionRecibe": {
+          "nombre": "Tipo identificación recibe"
+        },
+        "identificadorRecibe": {
+          "nombre": "Identificador recibe"
+        },
+        "estadoComprobante": {
+          "nombre": "Estado comprobante"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por identificador recibe",
+          "placeholder": "Ej: 1717171717"
+        },
+        "tipoAmbiente": {
+          "label": "Tipo ambiente",
+          "placeholder": "Seleccione el ambiente",
+          "description": "Tipo de ambiente",
+          "options": {
+            "produccion": {
+              "label": "Producción"
+            },
+            "pruebas": {
+              "label": "Pruebas"
+            }
+          }
+        },
+        "estadoComprobante": {
+          "label": "Estado comprobante",
+          "placeholder": "Seleccione el estado",
+          "description": "Estado",
+          "options": {
+            "enProcesamiento": {
+              "label": "En procesamiento"
+            },
+            "autorizado": {
+              "label": "Autorizado"
+            },
+            "noAutorizado": {
+              "label": "No autorizado"
+            }
+          }
+        },
+        "tipoDocumento": {
+          "label": "Tipo documento",
+          "placeholder": "Seleccione el tipo de documento",
+          "description": "Tipo de documento",
+          "options": {
+            "factura": {
+              "label": "Factura"
+            },
+            "liquidacion": {
+              "label": "Liquidación"
+            },
+            "notaCredito": {
+              "label": "Nota de crédito"
+            },
+            "guiaRemision": {
+              "label": "Guía de remisión"
+            },
+            "retencion": {
+              "label": "Comprobante retención"
+            }
+          }
+        },
+        "tipoIdentificacionRecibe": {
+          "label": "Tipo identificación",
+          "placeholder": "Seleccione el tipo",
+          "description": "Tipo identificación",
+          "options": {
+            "ruc": {
+              "label": "RUC"
+            },
+            "cedula": {
+              "label": "Cédula"
+            },
+            "pasaporte": {
+              "label": "Pasaporte"
+            },
+            "consumidorFinal": {
+              "label": "Consumidor final"
+            },
+            "exterior": {
+              "label": "Identificación del exterior"
+            }
+          }
+        },
+        "identificadorEmisor": {
+          "label": "Identificador emisor",
+          "placeholder": "Ej: 1717171717",
+          "description": "Filtre por identificador emisor"
+        }
+      }
+    },
+    "anuladoAts": {
+      "migaPan": "Anulado Ats",
+      "nombreRuta": "Anulado Ats.",
+      "descripcion": "Gestiona tu Anulado Ats.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Anulado Ats",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Anulado Ats",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "clienteAts": {
+      "migaPan": "Cliente Ats",
+      "nombreRuta": "Cliente Ats.",
+      "descripcion": "Gestiona tu Cliente Ats.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Cliente Ats",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Cliente Ats",
+          "placeholder": "Ej: ..."
+        },
+        "tipoCliente": {
+          "nombre": "Tipo cliente",
+          "ayuda": "Elija el tipo de cliente",
+          "placeholder": "Ej: Natural"
+        },
+        "tipoDocumentoIdentidad": {
+          "nombre": "Tipo documento Identidad",
+          "ayuda": "Elija el tipo de documento identidad",
+          "placeholder": "Ej: RUC"
+        },
+        "documentoIdentidad": {
+          "nombre": "Documento Identidad",
+          "ayuda": "Documento de identidad del cliente",
+          "placeholder": "Ej: 1713446209"
+        },
+        "razonSocial": {
+          "nombre": "Razón Social",
+          "ayuda": "Razón social del cliente",
+          "placeholder": "Ej: Manticore Labs"
+        },
+        "nombreContacto": {
+          "nombre": "Nombre Contacto",
+          "ayuda": "Nombre contacto del cliente",
+          "placeholder": "Ej: Julio Rojas"
+        },
+        "cargo": {
+          "nombre": "Cargo",
+          "ayuda": "Cargo del cliente",
+          "placeholder": "Ej: Supervisor"
+        },
+        "direccion": {
+          "nombre": "Dirección",
+          "ayuda": "Dirección del cliente",
+          "placeholder": "Ej: Av. La prensa"
+        },
+        "telefono": {
+          "nombre": "Teléfono",
+          "ayuda": "Teléfono del cliente",
+          "placeholder": "Ej: 0912122345"
+        },
+        "codigo": {
+          "nombre": "Código",
+          "ayuda": "Código del cliente",
+          "placeholder": "Ej: 1"
+        },
+        "parteRelacionada": {
+          "nombre": "Parte Relacionada",
+          "ayuda": "Parte Relacionada del cliente",
+          "placeholder": "Ej: SI"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por por código, razón social, documento de identidad.",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "codigoSustentoSri": {
+      "migaPan": "Codigo Sustento Sri",
+      "nombreRuta": "Codigo Sustento Sri.",
+      "descripcion": "Gestiona tu Codigo Sustento Sri.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Codigo Sustento Sri",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de l Código Sustento Sri",
+          "placeholder": "Ej: ..."
+        },
+        "codigo": {
+          "nombre": "Código",
+          "ayuda": "Código del sustento Sri",
+          "placeholder": "Ej: ..."
+        },
+        "codigoTipoComprobante": {
+          "nombre": "Código Tipo Comprobante",
+          "ayuda": "Código Tipo Comprobante del sustento Sri",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por código o por nombre",
+          "placeholder": "Ej: 01"
+        }
+      }
+    },
+    "lista-valores": {
+      "nombreCampoLista": {
+        "tipo": "...",
+        "detalle": {
+          "A1": "... A",
+          "A2": "... B"
+        }
+      }
+    }
+  },
+  "modulo-valor-tipo-detalle": {
+    "migaPan": "Modulo valor tipo detalle",
+    "descripcionRuta": "Bienvenido a valor tipo detalle"
+  },
+  "modulo-contabilidad": {
+    "migaPan": "Menú contabilidad",
+    "descripcionRuta": "Bienvenido a ruta de Contabilidad",
+    "banco": {
+      "migaPan": "Banco",
+      "nombreRuta": "Banco",
+      "descripcion": "Gestione sus Bancos.",
+      "descripcionRuta": " ",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de ...",
+          "placeholder": "Eje: ..."
+        }
+      }
+    },
+    "tipoComprobante": {
+      "migaPan": "Tipo Comprobante",
+      "nombreRuta": "Tipo Comprobante.",
+      "descripcion": "Gestiona tu Tipo Comprobante.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Tipo Comprobante",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Tipo Comprobante",
+          "placeholder": "Ej: Factura"
+        },
+        "codigo": {
+          "nombre": "Código",
+          "ayuda": "Ingrese el código del comprobante",
+          "placeholder": "Ej: 1"
+        },
+        "secuenciales": {
+          "nombre": "Secuenciales",
+          "ayuda": "Ingrese los secuenciales",
+          "placeholder": "Ej: 01,09,20"
+        },
+        "sustentoTributario": {
+          "nombre": "Sustento tributario",
+          "ayuda": "Ingrese el sustento tributario",
+          "placeholder": "Ej: 01,02,03"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "periodoContable": {
+      "migaPan": "Periodo Contable",
+      "nombreRuta": "Periodo Contable.",
+      "descripcion": "Gestiona tu Periodo Contable.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Periodo Contable",
+      "columnas": {
+        "esPeriodoActual": "Periodo actual"
+      },
+      "camposFormulario": {
+        "fechaInicio": {
+          "nombre": "Fecha inicio",
+          "ayuda": "Seleccione la fecha de inicio del periodo",
+          "placeholder": "Ej: 01/01/2023"
+        },
+        "fechaFin": {
+          "nombre": "Fecha fin",
+          "ayuda": "Seleccione la fecha de fin del periodo",
+          "placeholder": "Ej: 31/12/2023"
+        },
+        "anio": {
+          "nombre": "Año",
+          "ayuda": "Ingrese el año del periodo",
+          "placeholder": "Ej: 2023"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por año",
+          "placeholder": "Ej: 2022"
+        }
+      }
+    },
+    "asientoContableCabecera": {
+      "migaPan": "Asiento Contable Cabecera",
+      "nombreRuta": "Asiento Contable Cabecera.",
+      "descripcion": "Gestiona tu Asiento Contable Cabecera.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Asiento Contable Cabecera",
+      "meses": {
+        "enero": "Enero",
+        "febrero": "Febrero",
+        "marzo": "Marzo",
+        "abril": "Abril",
+        "mayo": "Mayo",
+        "junio": "Junio",
+        "julio": "Julio",
+        "agosto": "Agosto",
+        "septiembre": "Septiembre",
+        "octubre": "Octubre",
+        "noviembre": "Noviembre",
+        "diciembre": "Diciembre"
+      },
+      "tipoTransaccion": {
+        "ingreso": "Ingreso",
+        "egreso": "Egreso",
+        "diario": "Diario",
+        "transferencia": "Transferencia"
+      },
+      "tipoAsientoContable": {
+        "efectivo": "Efectivo",
+        "cheque": "Cheque",
+        "medioDigital": "Medio digital",
+        "banco": "Banco",
+        "inicial": "Inicial"
+      },
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Asiento Contable Cabecera",
+          "placeholder": "Ej: ..."
+        },
+        "fecha": {
+          "nombre": "Fecha",
+          "ayuda": "Seleccione la fecha del asiento",
+          "placeholder": "Ej: 2023/02/01"
+        },
+        "anio": {
+          "nombre": "Año",
+          "ayuda": "Ingrese el año del asiento",
+          "placeholder": "Ej: 2023"
+        },
+        "mesPeriodo": {
+          "nombre": "Mes",
+          "ayuda": "Seleccione el mes del periodo",
+          "placeholder": "Ej: Enero"
+        },
+        "tipoTransaccion": {
+          "nombre": "Tipo transacción",
+          "ayuda": "Seleccione el tipo de transacción",
+          "placeholder": "Ej: Ingreso"
+        },
+        "tipoAsientoContable": {
+          "nombre": "Tipo asiento contable",
+          "ayuda": "Seleccione el tipo de asiento contable",
+          "placeholder": "Ej: Efectivo"
+        },
+        "codigoReferencialAsientoContable": {
+          "nombre": "Código referencial",
+          "ayuda": "Ingrese el código referencial",
+          "placeholder": "Ej: 001001000001"
+        },
+        "beneficiario": {
+          "nombre": "Beneficiario",
+          "ayuda": "Ingrese el beneficiario",
+          "placeholder": "Ej: Cristian Lara"
+        },
+        "totalCredito": {
+          "nombre": "Total crédito",
+          "ayuda": "Ingrese el total crédito",
+          "placeholder": "Ej: 100.00"
+        },
+        "totalDebito": {
+          "nombre": "Total débito",
+          "ayuda": "Ingrese el total débito",
+          "placeholder": "Ej: 100.00"
+        },
+        "asientoCerrado": {
+          "nombre": "Asiento cerrrado",
+          "ayuda": "Seleccione si el asiento está cerrado",
+          "placeholder": "Ej: Si"
+        },
+        "serie": {
+          "nombre": "Serie",
+          "ayuda": "Ingrese la serie",
+          "placeholder": "Ej: 021598"
+        },
+        "diferencia": {
+          "nombre": "Diferencia",
+          "ayuda": "Ingrese la diferencia",
+          "placeholder": "Ej: 0"
+        },
+        "descripcion": {
+          "nombre": "Descripción",
+          "ayuda": "Ingrese una descripción",
+          "placeholder": "Ej: Pago de mercadería"
+        },
+        "numero": {
+          "nombre": "Número",
+          "ayuda": "Ingrese el número",
+          "placeholder": "Ej: 1"
+        },
+        "numeroRegistros": {
+          "nombre": "Número registros",
+          "ayuda": "Ingrese el número de registros",
+          "placeholder": "Ej: 1"
+        },
+        "observaciones": {
+          "nombre": "Observaciones",
+          "ayuda": "Ingrese Observaciones",
+          "placeholder": "Ej: La mercadería ..."
+        },
+        "cheque": {
+          "nombre": "Cheque",
+          "ayuda": "Seleccione un cheque",
+          "placeholder": "Ej: 1000/Nombre"
+        },
+        "periodoContable": {
+          "nombre": "Periodo contable",
+          "ayuda": "Seleccione un periodo",
+          "placeholder": "Ej: 2023"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "asientoContableDetAdicional": {
+      "migaPan": "Asiento Contable Det Adicional",
+      "nombreRuta": "Asiento Contable Det Adicional.",
+      "descripcion": "Gestiona tu Asiento Contable Det Adicional.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Asiento Contable Det Adicional",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Asiento Contable Det Adicional",
+          "placeholder": "Ej: ..."
+        },
+        "llave": {
+          "nombre": "Llave",
+          "ayuda": "Ingrese la llave",
+          "placeholder": "Ej: Cédula"
+        },
+        "valor": {
+          "nombre": "Valor",
+          "ayuda": "Ingrese el valor",
+          "placeholder": "Ej: 1718124890"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por llave",
+          "placeholder": "Ej: Cédula"
+        }
+      }
+    },
+    "balances": {
+      "migaPan": "Balances",
+      "nombreRuta": "Balances.",
+      "descripcion": "Genere sus balances",
+      "descripcionRuta": "Genere sus balances",
+      "camposFormulario": {
+        "balance": {
+          "nombre": "Balance",
+          "ayuda": "Seleccione El tipo de balance",
+          "placeholder": "Ej: Comprobación"
+        },
+        "anio": {
+          "nombre": "Año",
+          "ayuda": "Seleccione un año",
+          "placeholder": "Ej: 2023"
+        },
+        "mesDesde": {
+          "nombre": "Mes desde",
+          "ayuda": "Seleccione un mes",
+          "placeholder": "Ej: Enero"
+        },
+        "mesHasta": {
+          "nombre": "Mes hasta",
+          "ayuda": "Seleccione un mes",
+          "placeholder": "Ej: Febrero"
+        },
+        "cuentas": {
+          "nombre": "Cuentas",
+          "ayuda": "Seleccione un las cuentas",
+          "placeholder": "Ej: Bancos"
+        },
+        "opcionesBalance": {
+          "comprobacion": "Comprobación",
+          "estadoResultados": "Estado de Resultados",
+          "balanceGeneral": "Balance General"
+        }
+      }
+    },
+    "cuentaContable": {
+      "saldosCuentas": {
+        "migaPan": "Saldos Cuentas"
+      },
+      "migaPan": "Cuenta Contable",
+      "nombreRuta": "Cuenta Contable.",
+      "descripcion": "Gestiona tu Cuenta Contable.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Cuenta Contable",
+      "camposFormulario": {
+        "mes": {
+          "nombre": "Mes",
+          "ayuda": "Seleccione el mes a mayorizar",
+          "placeholder": "Ej: Enero"
+        },
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Cuenta Contable",
+          "placeholder": "Ej: Bancos"
+        },
+        "nivel": {
+          "nombre": "Nivel",
+          "ayuda": "Ingrese el nivel",
+          "placeholder": "Ej: 1"
+        },
+        "identificador": {
+          "nombre": "Identificador",
+          "ayuda": "Ingrese el identificador",
+          "placeholder": "Ej: 101010199"
+        },
+        "tipoCuenta": {
+          "nombre": "Tipo cuenta",
+          "ayuda": "Seleccione el tipo de cuenta",
+          "placeholder": "Ej: Acreedora"
+        },
+        "movimiento": {
+          "nombre": "Movimiento",
+          "ayuda": "Seleccione el tipo de movimiento",
+          "placeholder": "Ej: Mayor"
+        },
+        "idNivel1": {
+          "nombre": "Nivel 1",
+          "ayuda": "Seleccione el nivel",
+          "placeholder": "Ej: Activo"
+        },
+        "idNivel2": {
+          "nombre": "Nivel 2",
+          "ayuda": "Seleccione el nivel",
+          "placeholder": "Ej: Activo corriente"
+        },
+        "idNivel3": {
+          "nombre": "Nivel 3",
+          "ayuda": "Seleccione el nivel",
+          "placeholder": "Ej: Efectivo y sus equivalentes"
+        },
+        "idNivel4": {
+          "nombre": "Nivel 4",
+          "ayuda": "Seleccione el nivel",
+          "placeholder": "Ej: Caja"
+        },
+        "idNivel5": {
+          "nombre": "Nivel 5",
+          "ayuda": "Seleccione el nivel",
+          "placeholder": "Ej: nivel 5"
+        },
+        "periodoContable": {
+          "nombre": "Periodo contable",
+          "ayuda": "Seleccione el periodo contable",
+          "placeholder": "Ej: 2023"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por nombre de la cuenta",
+          "placeholder": "Ej: Bancos"
+        }
+      }
+    },
+    "transaccionAsientoContable": {
+      "migaPan": "Transaccion Asiento Contable",
+      "nombreRuta": "Transaccion Asiento Contable.",
+      "descripcion": "Gestiona tu Transaccion Asiento Contable.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Transaccion Asiento Contable",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Transaccion Asiento Contable",
+          "placeholder": "Ej: ..."
+        },
+        "detalle": {
+          "nombre": "Detalle",
+          "ayuda": "Ingrese el detalle",
+          "placeholder": "Ej: Cédula"
+        },
+        "valorCredito": {
+          "nombre": "Valor crédito",
+          "ayuda": "Ingrese el valor crédito",
+          "placeholder": "Ej: 100.00"
+        },
+        "valorDebito": {
+          "nombre": "Valor débito",
+          "ayuda": "Ingrese el valor débito",
+          "placeholder": "Ej: 100.00"
+        },
+        "numeroFactura": {
+          "nombre": "Núm. factura",
+          "ayuda": "Ingrese el num. factura",
+          "placeholder": "Ej: 192029820001"
+        },
+        "cuentaContable": {
+          "nombre": "Cuenta contable",
+          "ayuda": "Seleccione la cuenta contable",
+          "placeholder": "Ej: Bancos"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por detalle",
+          "placeholder": "Ej: Cédula"
+        }
+      }
+    },
+    "chequera": {
+      "migaPan": "Chequera",
+      "nombreRuta": "Chequera.",
+      "descripcion": "Gestiona tu Chequera.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Chequera",
+      "camposFormulario": {
+        "fechaEmision": {
+          "nombre": "Fecha Emisión",
+          "ayuda": "Fecha emisión de la Chequera",
+          "placeholder": "Ej: 10/06/2022"
+        },
+        "serieDesde": {
+          "nombre": "Serie Desde",
+          "ayuda": "Serie desde de la Chequera",
+          "placeholder": "Ej: 1001"
+        },
+        "serieHasta": {
+          "nombre": "Serie Hasta",
+          "ayuda": "Serie hasta de la Chequera",
+          "placeholder": "Ej: 200"
+        },
+        "cuentaBancariaEmpresa": {
+          "nombre": "Cuenta Bancaria Empresa",
+          "ayuda": "Seleccione un cuenta bancaria",
+          "placeholder": "Ej: 12345678"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        },
+        "fechaEmision": {
+          "nombre": "Fecha Emisión",
+          "placeholder": "EJ: 2020/06/03",
+          "ayuda": "Filtre por fecha de emisión"
+        }
+      }
+    },
+    "cheque": {
+      "migaPan": "Cheque",
+      "nombreRuta": "Cheque.",
+      "descripcion": "Gestiona tu Cheque.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Cheque",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "numeroCheque": {
+          "nombre": "Número Cheque",
+          "ayuda": "Número del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "estadoCheque": {
+          "nombre": "Estado Cheque",
+          "ayuda": "Estado del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "identificacion": {
+          "nombre": "Identificación",
+          "ayuda": "Identificación del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "razonSocial": {
+          "nombre": "Razón Social",
+          "ayuda": "Razón Social del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "tipoIdentificacion": {
+          "nombre": "Tipo Identificación",
+          "ayuda": "Tipo Identificación del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "codigoTipoIdentificacion": {
+          "nombre": "Código Tipo Identificación",
+          "ayuda": "Código Tipo Identificación del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "codigoBeneficiarioExterno": {
+          "nombre": "Código Beneficiario Externo",
+          "ayuda": "Código Beneficiario Externo del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "tipoCodigoBeneficiario": {
+          "nombre": "Tipo Código Beneficiario",
+          "ayuda": "Tipo Código Beneficiario del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "fechaCheque": {
+          "nombre": "Fecha Cheque",
+          "ayuda": "Fecha del Cheque",
+          "placeholder": "Ej: ..."
+        },
+        "chequera": {
+          "nombre": "Chequera",
+          "ayuda": "Chequera",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por número de cheque",
+          "placeholder": "Ej: 1"
+        }
+      }
+    },
+    "cuentaBancariaEmpresa": {
+      "migaPan": "Cuenta Bancaria Empresa",
+      "nombreRuta": "Cuenta Bancaria Empresa.",
+      "descripcion": "Gestiona tu Cuenta Bancaria Empresa.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Cuenta Bancaria Empresa",
+      "camposFormulario": {
+        "numeroCuenta": {
+          "nombre": "Número Cuenta",
+          "ayuda": "Número de la Cuenta Bancaria",
+          "placeholder": "Ej: 25148621"
+        },
+        "tipoCuenta": {
+          "nombre": "Tipo Cuenta",
+          "ayuda": "Tipo de Cuenta Bancaria",
+          "placeholder": "Ej: Ahorros"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "lista-valores": {
+      "nombreCampoLista": {
+        "tipo": "...",
+        "detalle": {
+          "A1": "... A",
+          "A2": "... B"
+        }
+      }
+    },
+    "asientoContableCabeceraGenerico": {
+      "migaPan": "Asiento Contable Cabecera Generico",
+      "nombreRuta": "Asiento Contable Cabecera Generico.",
+      "descripcion": "Gestiona tu Asiento Contable Cabecera Generico.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Asiento Contable Cabecera Generico",
+      "tipoTransaccion": {
+        "ingreso": "Ingreso",
+        "egreso": "Egreso",
+        "diario": "Diario",
+        "transferencia": "Transferencia"
+      },
+      "tipoAsientoContable": {
+        "efectivo": "Efectivo",
+        "cheque": "Cheque",
+        "medioDigital": "Medio digital",
+        "banco": "Banco"
+      },
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Asiento Contable Cabecera Generico",
+          "placeholder": "Ej: ..."
+        },
+        "tipoTransaccion": {
+          "nombre": "Tipo transacción",
+          "ayuda": "Seleccione el tipo de transacción",
+          "placeholder": "Ej: Ingreso"
+        },
+        "tipoAsientoContable": {
+          "nombre": "Tipo asiento contable",
+          "ayuda": "Seleccione el tipo de asiento contable",
+          "placeholder": "Ej: Efectivo"
+        },
+        "codigoReferencialAsientoContable": {
+          "nombre": "Código referencial",
+          "ayuda": "Ingrese el código referencial",
+          "placeholder": "Ej: 001001000001"
+        },
+        "beneficiario": {
+          "nombre": "Beneficiario",
+          "ayuda": "Ingrese el beneficiario",
+          "placeholder": "Ej: Cristian Lara"
+        },
+        "totalCredito": {
+          "nombre": "Total crédito",
+          "ayuda": "Ingrese el total crédito",
+          "placeholder": "Ej: 100.00"
+        },
+        "totalDebito": {
+          "nombre": "Total débito",
+          "ayuda": "Ingrese el total débito",
+          "placeholder": "Ej: 100.00"
+        },
+        "serie": {
+          "nombre": "Serie",
+          "ayuda": "Ingrese la serie",
+          "placeholder": "Ej: 021598"
+        },
+        "diferencia": {
+          "nombre": "Diferencia",
+          "ayuda": "Ingrese la diferencia",
+          "placeholder": "Ej: 0"
+        },
+        "descripcion": {
+          "nombre": "Descripción",
+          "ayuda": "Ingrese una descripción",
+          "placeholder": "Ej: Pago de mercadería"
+        },
+        "numero": {
+          "nombre": "Número",
+          "ayuda": "Ingrese el número",
+          "placeholder": "Ej: 1"
+        },
+        "numeroRegistros": {
+          "nombre": "Número registros",
+          "ayuda": "Ingrese el número de registros",
+          "placeholder": "Ej: 1"
+        },
+        "cheque": {
+          "nombre": "Cheque",
+          "ayuda": "Seleccione un cheque",
+          "placeholder": "Ej: 1000/Nombre"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por Código referencial o beneficiario",
+          "placeholder": "Ej: 001001000001"
+        },
+        "tipoAsientoContable": {
+          "label": "Tipo asiento Contable",
+          "ayuda": "Seleccione el tipo de asiento",
+          "placeholder": "Ej: Efectivo"
+        },
+        "tipoTransaccion": {
+          "label": "Tipo transacción",
+          "ayuda": "Seleccione el tipo de transacción",
+          "placeholder": "Ej: Ingreso"
+        }
+      }
+    },
+    "transaccionAsientoContableGenerico": {
+      "migaPan": "Transaccion Asiento Contable Genérico",
+      "nombreRuta": "Transaccion Asiento Contable Genérico.",
+      "descripcion": "Gestiona tu Transaccion Asiento Contable Genérico.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Transaccion Asiento Contable Genérico",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Transaccion Asiento Contable Genérico",
+          "placeholder": "Ej: ..."
+        },
+        "detalle": {
+          "nombre": "Detalle",
+          "ayuda": "Ingrese el detalle",
+          "placeholder": "Ej: Cédula"
+        },
+        "valorCredito": {
+          "nombre": "Valor crédito",
+          "ayuda": "Ingrese el valor crédito",
+          "placeholder": "Ej: 100.00"
+        },
+        "valorDebito": {
+          "nombre": "Valor débito",
+          "ayuda": "Ingrese el valor débito",
+          "placeholder": "Ej: 100.00"
+        },
+        "numeroFactura": {
+          "nombre": "Núm. factura",
+          "ayuda": "Ingrese el num. factura",
+          "placeholder": "Ej: 192029820001"
+        },
+        "cuentaContable": {
+          "nombre": "Cuenta contable",
+          "ayuda": "Seleccione la cuenta contable",
+          "placeholder": "Ej: Bancos"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por detalle",
+          "placeholder": "Ej: Cédula"
+        }
+      }
+    },
+    "asientoContableCabeceraAjuste": {
+      "migaPan": "Asiento Contable Cabecera Ajuste",
+      "nombreRuta": "Asiento Contable Cabecera Ajuste.",
+      "descripcion": "Gestiona tu Asiento Contable Cabecera Ajuste.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Asiento Contable Cabecera Ajuste",
+      "meses": {
+        "enero": "Enero",
+        "febrero": "Febrero",
+        "marzo": "Marzo",
+        "abril": "Abril",
+        "mayo": "Mayo",
+        "junio": "Junio",
+        "julio": "Julio",
+        "agosto": "Agosto",
+        "septiembre": "Septiembre",
+        "octubre": "Octubre",
+        "noviembre": "Noviembre",
+        "diciembre": "Diciembre"
+      },
+      "tipoTransaccion": {
+        "ingreso": "Ingreso",
+        "egreso": "Egreso",
+        "diario": "Diario",
+        "transferencia": "Transferencia"
+      },
+      "tipoAsientoContable": {
+        "efectivo": "Efectivo",
+        "cheque": "Cheque",
+        "medioDigital": "Medio digital",
+        "banco": "Banco",
+        "inicial": "Inicial"
+      },
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Asiento Contable Cabecera",
+          "placeholder": "Ej: ..."
+        },
+        "fecha": {
+          "nombre": "Fecha",
+          "ayuda": "Seleccione la fecha del asiento",
+          "placeholder": "Ej: 2023/02/01"
+        },
+        "anio": {
+          "nombre": "Año",
+          "ayuda": "Ingrese el año del asiento",
+          "placeholder": "Ej: 2023"
+        },
+        "mesPeriodo": {
+          "nombre": "Mes",
+          "ayuda": "Seleccione el mes del periodo",
+          "placeholder": "Ej: Enero"
+        },
+        "tipoTransaccion": {
+          "nombre": "Tipo transacción",
+          "ayuda": "Seleccione el tipo de transacción",
+          "placeholder": "Ej: Ingreso"
+        },
+        "tipoAsientoContable": {
+          "nombre": "Tipo asiento contable",
+          "ayuda": "Seleccione el tipo de asiento contable",
+          "placeholder": "Ej: Efectivo"
+        },
+        "codigoReferencialAsientoContable": {
+          "nombre": "Código referencial",
+          "ayuda": "Ingrese el código referencial",
+          "placeholder": "Ej: 001001000001"
+        },
+        "beneficiario": {
+          "nombre": "Beneficiario",
+          "ayuda": "Ingrese el beneficiario",
+          "placeholder": "Ej: Cristian Lara"
+        },
+        "totalCredito": {
+          "nombre": "Total crédito",
+          "ayuda": "Ingrese el total crédito",
+          "placeholder": "Ej: 100.00"
+        },
+        "totalDebito": {
+          "nombre": "Total débito",
+          "ayuda": "Ingrese el total débito",
+          "placeholder": "Ej: 100.00"
+        },
+        "asientoCerrado": {
+          "nombre": "Asiento cerrrado",
+          "ayuda": "Seleccione si el asiento está cerrado",
+          "placeholder": "Ej: Si"
+        },
+        "serie": {
+          "nombre": "Serie",
+          "ayuda": "Ingrese la serie",
+          "placeholder": "Ej: 021598"
+        },
+        "diferencia": {
+          "nombre": "Diferencia",
+          "ayuda": "Ingrese la diferencia",
+          "placeholder": "Ej: 0"
+        },
+        "descripcion": {
+          "nombre": "Descripción",
+          "ayuda": "Ingrese una descripción",
+          "placeholder": "Ej: Pago de mercadería"
+        },
+        "numero": {
+          "nombre": "Número",
+          "ayuda": "Ingrese el número",
+          "placeholder": "Ej: 1"
+        },
+        "numeroRegistros": {
+          "nombre": "Número registros",
+          "ayuda": "Ingrese el número de registros",
+          "placeholder": "Ej: 1"
+        },
+        "observaciones": {
+          "nombre": "Observaciones",
+          "ayuda": "Ingrese Observaciones",
+          "placeholder": "Ej: La mercadería ..."
+        },
+        "cheque": {
+          "nombre": "Cheque",
+          "ayuda": "Seleccione un cheque",
+          "placeholder": "Ej: 1000/Nombre"
+        },
+        "periodoContable": {
+          "nombre": "Periodo contable",
+          "ayuda": "Seleccione un periodo",
+          "placeholder": "Ej: 2023"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "transaccionAsientoContableAjuste": {
+      "migaPan": "Transaccion Asiento Contable Ajuste",
+      "nombreRuta": "Transaccion Asiento Contable Ajuste.",
+      "descripcion": "Gestiona tu Transaccion Asiento Contable Ajuste.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Transaccion Asiento Contable Ajuste",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Transaccion Asiento Contable Genérico",
+          "placeholder": "Ej: ..."
+        },
+        "detalle": {
+          "nombre": "Detalle",
+          "ayuda": "Ingrese el detalle",
+          "placeholder": "Ej: Cédula"
+        },
+        "valorCredito": {
+          "nombre": "Valor crédito",
+          "ayuda": "Ingrese el valor crédito",
+          "placeholder": "Ej: 100.00"
+        },
+        "valorDebito": {
+          "nombre": "Valor débito",
+          "ayuda": "Ingrese el valor débito",
+          "placeholder": "Ej: 100.00"
+        },
+        "numeroFactura": {
+          "nombre": "Núm. factura",
+          "ayuda": "Ingrese el num. factura",
+          "placeholder": "Ej: 192029820001"
+        },
+        "cuentaContable": {
+          "nombre": "Cuenta contable",
+          "ayuda": "Seleccione la cuenta contable",
+          "placeholder": "Ej: Bancos"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    }
+  },
+  "modulo-herramienta-inyeccion": {
+    "migaPan": "Modulo Herramienta Inyección",
+    "descripcionRuta": "Bienvenido a ruta de herramienta de inyección",
+    "moldeUltimoTurno": {
+      "migaPan": "Molde último turno",
+      "nombreRuta": "Molde último turno",
+      "descripcion": "Gestiona tus moldes último turno.",
+      "descripcionRuta": "Crear, actualizar y buscar  moldes último turno",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Name",
+          "ayuda": "Name of ...",
+          "placeholder": "Ex: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Search by ....",
+          "placeholder": "Ex: ..."
+        }
+      }
+    },
+    "material": {
+      "migaPan": "Material",
+      "nombreRuta": "Material.",
+      "descripcion": "Gestiona tu Material.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Material",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Material",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "parametrosGenerales": {
+      "migaPan": "Parámetros Generales",
+      "nombreRuta": "Pintado",
+      "nombreRuta2": "Tiempos Considerados en los Paros Programados",
+      "descripcion": "Gestiona tus parámetros de Pintado.",
+      "descripcion2": "Gestiona tus parámetros de tiempo considerados en los paros programados.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Parámetros Generales",
+      "camposFormulario": {
+        "modelo": {
+          "nombre": "Modelo",
+          "ayuda": "Modelo del Pintado",
+          "placeholder": "Ej: APL"
+        },
+        "grupoArticulo": {
+          "nombre": "Grupo Artículo",
+          "ayuda": "Grupo artículo del Pintado",
+          "placeholder": "Ej: APL-AZ"
+        },
+        "necesidad": {
+          "nombre": "Capacidad",
+          "ayuda": "Capacidad del Pintado",
+          "placeholder": "Ej: 0.063"
+        },
+        "maquina": {
+          "nombre": "Máquina",
+          "ayuda": "Máquina del Parámetro General",
+          "placeholder": "Ej: PILODE14"
+        },
+        "mttoPreventivo": {
+          "nombre": "MTTO/Preventivo",
+          "ayuda": "MTTO/Preventivo del Parámetro General",
+          "placeholder": "Ej: 1000"
+        },
+        "arranqueDeMaquina": {
+          "nombre": "Arranque de máquina",
+          "ayuda": "Arranque de máquina del Parámetro General",
+          "placeholder": "Ej: 0,125"
+        },
+        "paroMaquinaria": {
+          "nombre": "Paro maquinaria",
+          "ayuda": "Paro de maquinaria del Parámetro General",
+          "placeholder": "Ej: 0,325"
+        },
+        "mttoAutonomo": {
+          "nombre": "MTTO/Autónomo",
+          "ayuda": "MTTO/Autónomo del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "cambioDeMolde": {
+          "nombre": "Cambio de molde",
+          "ayuda": "Cambio de molde del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "cambioDeColor": {
+          "nombre": "Cambio de color",
+          "ayuda": "Cambio de color del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "parosPlanificados": {
+          "nombre": "Paros planificados",
+          "ayuda": "Paros planificados del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "cambioDeMaterial": {
+          "nombre": "Cambio de Material",
+          "ayuda": "Cambio de material del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        },
+        "planDePrueba": {
+          "nombre": "Plan de prueba",
+          "ayuda": "Plan de prueba del Parámetro General",
+          "placeholder": "Ej: 0,063"
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por modelo",
+          "placeholder": "Ej: APL"
+        }
+      }
+    },
+    "preProgramacion": {
+      "migaPan": "Preprogramación",
+      "nombreRuta": "Preprogramación.",
+      "descripcion": "Gestiona tu Preprogramación.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Preprogramación",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Ingrese el nombre",
+          "placeholder": "Ej: Planificación"
+        },
+        "archivo": {
+          "nombre": "archivo",
+          "ayuda": "Seleccione el archivo",
+          "placeholder": " "
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "necesidadPlanificacion": {
+      "migaPan": "Necesidad Planificación",
+      "nombreRuta": "Necesidad Planificación.",
+      "descripcion": "Gestiona tu Necesidad Planificación.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Necesidad Planificación",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Necesidad Planificación",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    }
+  },
+  "modulo-mundo-venus": {
+    "categoria": {
+      "migaPan": "Categoría",
+      "nombreRuta": "Categoría.",
+      "descripcion": "Gestiona tu Categoría.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Categoría",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Categoría",
+          "placeholder": "Ej: Categor.."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por nombre",
+          "placeholder": "Ej: catego.."
+        }
+      }
+    },
+    "configuracionesGenerales": {
+      "migaPan": "Configuraciones Generales",
+      "nombreRuta": "Configuraciones Generales.",
+      "descripcion": "Gestiona tu Configuraciones Generales.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Configuraciones Generales",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Configuraciones Generales",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    },
+    "archivoFichaTecnica": {
+      "migaPan": "Documentos",
+      "nombreRuta": "Archivo Ficha Tecnica.",
+      "descripcion": "Gestiona tu Archivo Ficha Tecnica.",
+      "descripcionRuta": "Crea, actualiza, busca y elimina Archivo Ficha Tecnica",
+      "camposFormulario": {
+        "nombre": {
+          "nombre": "Nombre",
+          "ayuda": "Nombre de la Archivo Ficha Tecnica",
+          "placeholder": "Ej: ..."
+        }
+      },
+      "findDto": {
+        "busqueda": {
+          "ayuda": "Busque por ...",
+          "placeholder": "Ej: ..."
+        }
+      }
+    }
+  }
+}
